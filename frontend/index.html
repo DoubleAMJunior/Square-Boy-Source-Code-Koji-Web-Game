@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <style type="text/css">
+    html {
+            overflow: hidden;
+    }
+     body{
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100%; 
+    background-size: cover;
+    }
+    </style>
+  <head>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      </style>
+    <meta charset="utf-8">
+    <!--,content="width=device-width, initial-scale=1.0, shrink-to-fit=no-->
+  </head>
+  <body>
+      <style type="text/css">
+      body {
+        background-color: black;
+      }
+      #loadingu {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          height: 80vh;
+      }
+      h1 {
+          text-align: center;
+          font-family: sans-serif;
+          color: white;
+      }
+      .loader {
+        margin: 0 auto;
+        border: 16px solid #333;
+        border-top: 16px solid #f3f3f3;
+        border-radius: 50%;
+        width: 120px;
+        height: 120px;
+        animation: spin 2s linear infinite;
+      }
+
+      @keyframes spin {
+        0% { transform: rotate(0deg); }
+        100% { transform: rotate(360deg); }
+      }
+    </style>
+    <div id="loadingu">
+      <div>
+        <div class="loader"></div>
+        <h1>LOADING</h1>
+      </div>
+  </div>
+  </body>
+</html>
